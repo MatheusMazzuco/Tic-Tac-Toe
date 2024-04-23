@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         if (board[cpuRow][cpuCol] == 0) {
             round++;
             board[cpuRow][cpuCol] = 2;
-            imageView.setImageResource(R.drawable.o);
+            imageView.setImageResource(R.drawable.x);
         }
         }
     }
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                     verificarGanhador();
                     board[0][0] = 1;
                     ImageView imageView = findViewById(view.getId());
-                    imageView.setImageResource(R.drawable.x);
+                    imageView.setImageResource(R.drawable.o);
                     round++;
                     verificarGanhador();
                 }
@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
                     verificarGanhador();
                     board[0][1] = 1;
                     ImageView imageView = findViewById(view.getId());
-                    imageView.setImageResource(R.drawable.x);
+                    imageView.setImageResource(R.drawable.o);
                     round++;
                     verificarGanhador();
                 }
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
                     verificarGanhador();
                     board[0][2] = 1;
                     ImageView imageView = findViewById(view.getId());
-                    imageView.setImageResource(R.drawable.x);
+                    imageView.setImageResource(R.drawable.o);
                     round++;
                     verificarGanhador();
                 }
@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
                     verificarGanhador();
                     board[1][0] = 1;
                     ImageView imageView = findViewById(view.getId());
-                    imageView.setImageResource(R.drawable.x);
+                    imageView.setImageResource(R.drawable.o);
                     round++;
                     verificarGanhador();
                 }
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
                     verificarGanhador();
                     board[1][1] = 1;
                     ImageView imageView = findViewById(view.getId());
-                    imageView.setImageResource(R.drawable.x);
+                    imageView.setImageResource(R.drawable.o);
                     round++;
                     verificarGanhador();
                 }
@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
                     verificarGanhador();
                     board[1][2] = 1;
                     ImageView imageView = findViewById(view.getId());
-                    imageView.setImageResource(R.drawable.x);
+                    imageView.setImageResource(R.drawable.o);
                     round++;
                     verificarGanhador();
                 }
@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity {
                     verificarGanhador();
                     board[2][0] = 1;
                     ImageView imageView = findViewById(view.getId());
-                    imageView.setImageResource(R.drawable.x);
+                    imageView.setImageResource(R.drawable.o);
                     round++;
                     verificarGanhador();
                 }
@@ -175,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
                     verificarGanhador();
                     board[2][1] = 1;
                     ImageView imageView = findViewById(view.getId());
-                    imageView.setImageResource(R.drawable.x);
+                    imageView.setImageResource(R.drawable.o);
                     round++;
                     verificarGanhador();
                 }
@@ -185,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
                     verificarGanhador();
                     board[2][2] = 1;
                     ImageView imageView = findViewById(view.getId());
-                    imageView.setImageResource(R.drawable.x);
+                    imageView.setImageResource(R.drawable.o);
                     round++;
                     verificarGanhador();
                 }
